@@ -110,23 +110,24 @@
       "type": "object",
       "required": [
         "id",
-        "countryCode",
+        "birthday",
         "documentType",
-        "birthday"
+        "countryCode"
+      
       ],
       "properties": {
         "id": {
           "title": "Credential Subject ID",
           "type": "string",
           "format": "uri"
-        },
-        "countryCode": {
+        },        
+        "birthday": {
           "type": "integer"
         },
         "documentType": {
           "type": "integer"
-        },   
-        "birthday": {
+        }
+        "countryCode": {
           "type": "integer"
         }
       }
