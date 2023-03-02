@@ -8,28 +8,20 @@
       "KYCAgeCredential": {
         "@id": "https://raw.githubusercontent.com/NovaTheMachine/PolygonID/f75c7d8754f98b7e85faf5eaae13977e4d556535/KYC-18plus.jsonld
 #KYC18plus",
-        "@context": {
+       "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
           "kyc-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
-          "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
-          "birthdayYear": {
-            "@id": "kyc-vocab:birthdayYear",
-            "@type": "serialization:Index"
-          },
-          "birthdayMonth": {
-            "@id": "kyc-vocab:birthdayMonth",
-            "@type": "serialization:Index"
-          },
-          "birthdayDay": {
-            "@id": "kyc-vocab:birthdayDay",
-            "@type": "serialization:Index"
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "birthday": {
+            "@id": "kyc-vocab:birthday",
+            "@type": "xsd:integer"
           },
           "documentType": {
             "@id": "kyc-vocab:documentType",
-            "@type": "serialization:Index"
+            "@type": "xsd:integer"
           }
         }
       },
