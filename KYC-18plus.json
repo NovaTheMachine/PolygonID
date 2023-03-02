@@ -4,7 +4,7 @@
   "$metadata": {
     "uris": {
       "jsonLdContext": "https://raw.githubusercontent.com/NovaTheMachine/PolygonID/main/KYC-18plus.jsonld#KYC18plus",
-      "jsonSchema": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json/KYCCountryOfResidenceCredential-v1.json"
+      "jsonSchema": "https://raw.githubusercontent.com/NovaTheMachine/PolygonID/main/KYC-18plus.json"
     },
     "serialization": {
       "indexDataSlotA": "countryCode",
@@ -111,7 +111,8 @@
       "required": [
         "id",
         "countryCode",
-        "documentType"
+        "documentType",
+        "birthday"
       ],
       "properties": {
         "id": {
@@ -123,6 +124,9 @@
           "type": "integer"
         },
         "documentType": {
+          "type": "integer"
+        },   
+        "birthday": {
           "type": "integer"
         }
       }
