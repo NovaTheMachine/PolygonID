@@ -6,8 +6,7 @@
       "id": "@id",
       "type": "@type",
       "KYC18plus": {
-        "@id": "https://raw.githubusercontent.com/NovaTheMachine/PolygonID/f75c7d8754f98b7e85faf5eaae13977e4d556535/KYC-18plus.jsonld
-#KYC18plus",
+        "@id": "https://raw.githubusercontent.com/NovaTheMachine/PolygonID/main/KYC-18plus.jsonld#KYC18plus",
        "@context": {
           "@version": 1.1,
           "@protected": true,
