@@ -22,7 +22,7 @@
             "@id": "kyc-vocab:documentType",
             "@type": "xsd:integer"
           },
-                "countryCode": {
+          "countryCode": {
             "@id": "kyc-vocab:countryCode",
             "@type": "serialization:Index"
           }
