@@ -6,10 +6,6 @@
       "jsonLdContext": "https://raw.githubusercontent.com/NovaTheMachine/PolygonID/main/KYC-18plus.jsonld#KYC18plus",
       "jsonSchema": "https://raw.githubusercontent.com/NovaTheMachine/PolygonID/main/KYC-18plus.json"
     },
-    "serialization": {
-      "indexDataSlotA": "countryCode",
-      "indexDataSlotB": "documentType"
-    }
   },
   "required": [
     "@context",
