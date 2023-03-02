@@ -5,7 +5,7 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "KYCAgeCredential": {
+      "KYC18plus": {
         "@id": "https://raw.githubusercontent.com/NovaTheMachine/PolygonID/f75c7d8754f98b7e85faf5eaae13977e4d556535/KYC-18plus.jsonld
 #KYC18plus",
        "@context": {
@@ -22,6 +22,10 @@
           "documentType": {
             "@id": "kyc-vocab:documentType",
             "@type": "xsd:integer"
+          },
+                "countryCode": {
+            "@id": "kyc-vocab:countryCode",
+            "@type": "serialization:Index"
           }
         }
       },
